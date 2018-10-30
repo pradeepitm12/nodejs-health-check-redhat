@@ -1,9 +1,9 @@
 apiVersion: v1
 data:
   app-config.yml: |
-    message : "Hello, %s from a ConfigMap !"
+    message : "Nodejs Health Check, Testing !"
     level : INFO
     #kind: ConfigMap
 metadata:
-  name: app-config
+  name: health-check
 
