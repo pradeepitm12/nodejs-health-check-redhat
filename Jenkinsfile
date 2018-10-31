@@ -24,7 +24,7 @@ osio {
       echo "-------------- build default ----------------------------"
       build resources: resources
       
-      echo "-------------- Pradeep test msg 1 --------------"
+      echo "-------------- Pradeep test msg 2 --------------"
       echo "-------------- deploy stage-----------------------------------"
       deploy resources: [resources,  cm], env: 'stage'
     }
