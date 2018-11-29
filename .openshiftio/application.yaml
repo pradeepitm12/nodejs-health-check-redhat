@@ -10,10 +10,6 @@ parameters:
     description: The suffix name for the template objects
     displayName: Suffix name
     value: ''
-  - name: SOURCE_REPOSITORY_URL
-    description: The source URL for the application
-    displayName: Source URL
-    required: true
   - name: SOURCE_REPOSITORY_REF
     description: The branch name for the application
     displayName: Source Branch
