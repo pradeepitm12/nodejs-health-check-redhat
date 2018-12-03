@@ -10,11 +10,19 @@ parameters:
     description: The suffix name for the template objects
     displayName: Suffix name
     value: ''
+  - name: RELEASE_VERSION
+    description: The release version number of application
+    displayName: Release version
+    value: 2.0.0
+  - name: SOURCE_REPOSITORY_URL
+    description: The source URL for the application
+    displayName: Source URL
+    required: true
   - name: SOURCE_REPOSITORY_REF
     description: The branch name for the application
     displayName: Source Branch
     value: master
-    required: true
+    required: true    
   - name: GITHUB_WEBHOOK_SECRET
     description: A secret string used to configure the GitHub webhook.
     displayName: GitHub Webhook Secret
