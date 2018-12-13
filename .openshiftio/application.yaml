@@ -10,9 +10,6 @@ parameters:
     description: The suffix name for the template objects
     displayName: Suffix name
     value: ''
-  - name: RELEASE_VERSION
-    description: The release version number of application
-    displayName: Release version
   - name: SOURCE_REPOSITORY_URL
     description: The source URL for the application
     displayName: Source URL
