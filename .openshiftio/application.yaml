@@ -19,6 +19,8 @@ parameters:
     displayName: Source Branch
     value: master
     required: true    
+  - name: RELEASE_VERSION
+    description: To tag the image name
   - name: GITHUB_WEBHOOK_SECRET
     description: A secret string used to configure the GitHub webhook.
     displayName: GitHub Webhook Secret
